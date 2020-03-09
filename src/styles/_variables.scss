@@ -1,0 +1,7 @@
+@import './fonts';
+@import './colors';
+
+@mixin quad ($color) {
+  width: 50%;
+  text-align: center; 
+}

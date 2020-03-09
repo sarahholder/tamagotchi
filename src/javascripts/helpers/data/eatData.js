@@ -1,4 +1,4 @@
-let full = 50;
+let full = 100;
 
 const eatHealthy = () => {
   if (full <= 90) {

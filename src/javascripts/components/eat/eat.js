@@ -5,10 +5,12 @@ import './eat.scss';
 const printEatQuad = () => {
   const fullnessScore = eatData.getFullnessScore();
   let domString = '';
+  domString += '<div class="container">';
   domString += '<h2>HUNGER</h2>';
   domString += `<h3>Fullness Score: ${fullnessScore}</h3>`;
   domString += '<button id="healthy-food-btn" type="button">Healthy Food</button>';
   domString += '<button id="unhealthy-food-btn" type="button">Unhealthy Food</button>';
+  domString += '</div>';
   utils.printToDom('eat', domString);
 };
 
