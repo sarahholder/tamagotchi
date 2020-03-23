@@ -1,6 +1,4 @@
-@import "~@fortawesome/fontawesome-free/css/all.min.css";
-
-body {
+ body {
   background-color: antiquewhite;
 }
 
@@ -8,3 +6,8 @@ body {
   display: flex;
   flex-flow: row wrap;
 }
+.container {
+  text-align: center;
+  margin-top: 8rem;
+}
+
